@@ -45,6 +45,9 @@ const getNews = () => {
                     })
                 });
                 console.log(result);
+                // result를 파일로 저장 or DB로 저장. or 시간을 줘서 계속 크롤링 하도록.
+                console.log("------------------");
+                console.log(result[0]);
                 
             }
         }
